@@ -96,8 +96,21 @@ button {
     border: none;
     border-radius: 15px;
 
+    cursor: pointer;
     background-color: #A91079;
     color: #ddd;
     font-size: 1.1rem;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: #C930A9;
+}
+
+button:active {
+    background-color: #890059;
+}
+
+.invalid {
+    border: 2px solid #f00;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./javascript.js" defer></script>
     <title>Sign-up Form</title>
 </head>
 <body>
@@ -27,30 +28,30 @@
                     <h2>Let's do this!</h2>
                     <div class="input-section">
                         <label for="first-name">First name:</label>
-                        <input id="first-name" type="text" name="first-name" required>
+                        <input id="first-name" class="information" type="text" name="first-name" required>
                     </div>
                     <div class="input-section">
                         <label for="last-name">Last name:</label>
-                        <input id="last-name" type="text" name="last-name" required>
+                        <input id="last-name" class="information" type="text" name="last-name" required>
                     </div>
                     <div class="input-section">
                         <label for="email">Email:</label>
-                        <input id="email" type="email" name="email" required>
+                        <input id="email" class="information" type="email" name="email" required>
                     </div>
                     <div class="input-section">
                         <label for="phone">Phone number:</label>
-                        <input id="phone" type="tel" name="phone-number" required>
+                        <input id="phone" class="information" type="tel" name="phone-number" required>
                     </div>
                     <div class="input-section">
                         <label for="psw">Password:</label>
-                        <input id="psw" type="password" name="password" required>
+                        <input id="psw" class="password" type="password" name="password" required>
                     </div>
                     <div class="input-section">
                         <label for="confirm-psw">Confirm password:</label>
-                        <input id="confirm-psw" type="passowrd" name="confirm-psw" required>
+                        <input id="confirm-psw" class="password" type="password" name="confirm-psw" required>
                     </div>
                 </div>
-                <button>Create Account</button>
+                <button type="submit">Create Account</button>
                 <p>Already have an account? <a href="#">Log in</a></p>
             </form>
         </div>
