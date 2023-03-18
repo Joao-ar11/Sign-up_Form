@@ -1,7 +1,7 @@
 const information = document.querySelectorAll(".information");
 information.forEach((item) => {
     item.addEventListener("input", () => {
-        if (!item.valid && item.value !== "") {
+        if (!item.validity.valid && item.value !== "") {
             item.classList.add("invalid");
         } else {
             item.classList.remove("invalid");
