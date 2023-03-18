@@ -19,7 +19,7 @@
 .picture {
     background: url("./img/background.jpg") no-repeat;
     background-size:cover;
-    width: 40%;
+    min-width: 40%;
     height: 100vh;
 }
 
@@ -37,4 +37,20 @@
 
 .logo > img {
     height: 96px; 
-} 
+}
+
+.form-div {
+    background-color: #2E0249;
+    color: #F806CC;
+}
+
+.form-div p {
+    margin: 9% 0 1rem 5%;
+    max-width: 70%;
+    text-align: justify;
+    font-family: "neon";
+}
+
+p:last-of-type {
+    margin-top: 0;
+}
