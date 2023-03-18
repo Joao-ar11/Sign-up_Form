@@ -21,7 +21,8 @@
     background-color: #2E0249;
     background-size:cover;
     min-width: 40%;
-    height: inherit;
+    min-height: 100vh;
+    height: auto;
 }
 
 .logo {
@@ -41,19 +42,16 @@
 }
 
 .form-div {
+    padding-top: 60px;
     background-color: #2E0249;
     color: #F806CC;
 }
 
 .form-div p {
-    margin: 7% 0 1rem 5%;
+    margin: 0 0 1rem 5%;
     max-width: 70%;
     text-align: justify;
     font-family: "neon";
-}
-
-p:last-of-type {
-    margin-top: 0;
 }
 
 .inputs-div {
@@ -90,4 +88,16 @@ input {
     background-color: #A91079;
     color: #fff;
     font-size: 1rem;
+}
+
+button {
+    margin: 3% 0 3% 5%;
+    padding: 13px 40px;
+    border: none;
+    border-radius: 15px;
+
+    background-color: #A91079;
+    color: #ddd;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
