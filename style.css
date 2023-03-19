@@ -90,6 +90,11 @@ input {
     font-size: 1rem;
 }
 
+input:focus {
+    outline: none;
+    border: 1px solid #000;
+}
+
 button {
     margin: 3% 0 3% 5%;
     padding: 13px 40px;
@@ -111,6 +116,12 @@ button:active {
     background-color: #890059;
 }
 
-.invalid {
+.invalid,
+.invalid:focus {
     border: 2px solid #f00;
+}
+
+.valid,
+.valid:focus {
+    border: 2px solid green;
 }
