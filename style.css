@@ -23,6 +23,16 @@
     min-width: 40%;
     min-height: 100vh;
     height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.picture a {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
 }
 
 .logo {
